@@ -1,0 +1,28 @@
+.videos{
+   
+   height:70vh ;
+ 
+ 
+ }
+ video{
+   height: inherit;
+   width: 100%;
+   aspect-ratio: 1/1;
+ }
+ 
+ .container {
+   margin-top: 1rem;
+ }
+
+ .top{
+    position: absolute;
+    top:  5rem;
+    margin-bottom: 1rem;
+ }
+ .video-player-Container{
+    margin-top: 1rem;
+ }
+ .right{
+    position: absolute;
+    right: 0;
+ }

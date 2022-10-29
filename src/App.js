@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './Componnets/Navbar/Navbar'
+import Videoplayer from './Componnets/Videoplayer/Videoplayer'
+import video1 from './videos/Earth_Rotating__In_the_space__Free_HD_Video_-_no_copyright(720p).mp4' 
+import video2 from "./videos/Earth's_Rotation_Visualized_in_a_Timelapse_of_the_Milky_Way_Galaxy_-_4K(720p).mp4" 
+import video3 from './videos/Viewing_the_Earth’s_Rotation_from_Space(720p).mp4' 
 
 function App() {
+
+  let videos = [ video1  , video2 , video3]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+       <Navbar/>
+       <Videoplayer videos = {videos} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
