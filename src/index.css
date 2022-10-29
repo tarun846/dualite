@@ -31,3 +31,9 @@ button{
   display: flex;
   
 }
+
+a{
+  color: black;
+  text-decoration: inherit;
+  font-family: inherit;
+}

@@ -7,7 +7,7 @@ import video3 from './videos/Viewing_the_Earth’s_Rotation_from_Space(720p).mp4
 
 function App() {
 
-  let videos = [ video1  , video2 , video3]
+  let videos = [   video2 ,  video1 , video3]
   return (
     <div>
        <Navbar/>
